@@ -18,3 +18,8 @@ let grades = ["A", "F", "F-", "C++", "B+"];
 for (x in grades){
     console.log(x);
 }
+
+const user = {firstName: 'John', lastName: 'Doe'};
+for (key in user){
+    console.log(user[key]);
+}
